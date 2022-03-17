@@ -5,6 +5,11 @@ In this case, the data scientists have handed us a set of notebooks (in `lab/ana
 
 We will use these notebooks as a baseline to create more optimized functions that can be used in an ML inference pipeline.
 # The MLE Challenge
+You have to fork this repository to complete the following challenges in your own `github` account. Feel free to solve the challenge however you want.
+
+Once completed, add a `SOLUTIONS.md` file justifying your responses and don't forget to send back the solution.
+
+If you have any doubts or questions, don't hesitate to open an issue to ask any question about any challenge.
 
 ## Challenge 1 - Refactor DEV code
 
