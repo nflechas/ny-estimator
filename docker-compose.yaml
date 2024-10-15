@@ -1,0 +1,13 @@
+version: '3.11'
+
+services:
+  nyestimator:
+    build:
+      context: .
+      dockerfile: docker/nyestimator.dockerfile
+    container_name: nyestimator
+    volumes:
+      - .:/opt/project
+    command: /bin/bash
+    ports:
+      - 8080:8080
