@@ -3,7 +3,7 @@ version: '3.11'
 services:
   nyestimator:
     build:
-      context: .
+      context: . # TODO modify
       dockerfile: docker/nyestimator.dockerfile
     container_name: nyestimator
     volumes:
