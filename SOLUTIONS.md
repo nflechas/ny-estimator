@@ -58,3 +58,10 @@ To use one should run the following command:
 docker-compose build nyestimator
 docker-compose up -p 8080:8080 nyestimator
 ```
+
+
+## TODO
+
+There is a deep rabbit hole of improvements that I could not tackle in my very limited time, it is a great effort to just find some time to continue programming after work.
+
+Among those improvements, the first that comes to mind is docstrings to make the code even more clear to other developers. Add more tests would de adviceable. Further improvements have been described in other sections. 
