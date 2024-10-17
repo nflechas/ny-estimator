@@ -8,6 +8,5 @@ services:
     container_name: nyestimator
     volumes:
       - .:/opt/project
-    command: /bin/bash
     ports:
       - 8080:8080
