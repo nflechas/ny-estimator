@@ -51,7 +51,6 @@ async def predict(self, request: PredictionRequest):
         return PredictionResponse(
             id=prediction["id"], price_category=prediction["price_category"]
         )
-        # return PredictionResponse(id=prediction['id'], price_category=prediction['price_category'])
     except Exception as e:
         logger.error(f"Prediction request failed: {e}")
         logger.error(traceback.format_exc())
